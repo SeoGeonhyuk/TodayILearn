@@ -25,3 +25,5 @@ https://www.acmicpc.net/problem/1260<br>
 1.최적화하는 방법은 무궁무진하게 많다.<br>
 2.예전에만 쓰고 지금은 잘 안쓰는 join에 대해서 다시 떠오르게 되었다.<br>
 3.Chat GPT가 알려주는 내용을 너무 맹신하지 말자. 내가 더 정확한 경우도 있다.<br>
+문제를 풀면서 시간복잡도 상위 100안에 들었다.<br>
+<src="https://github.com/SeoGeonhyuk/TodayILearn/assets/60954160/0fc02401-8200-4f18-a19c-fba8454d13e0">
