@@ -26,4 +26,4 @@ https://www.acmicpc.net/problem/1260<br>
 2.예전에만 쓰고 지금은 잘 안쓰는 join에 대해서 다시 떠오르게 되었다.<br>
 3.Chat GPT가 알려주는 내용을 너무 맹신하지 말자. 내가 더 정확한 경우도 있다.<br>
 문제를 풀면서 시간복잡도 상위 100안에 들었다.<br>
-<src="https://github.com/SeoGeonhyuk/TodayILearn/assets/60954160/0fc02401-8200-4f18-a19c-fba8454d13e0">
+<img width="946" alt="스크린샷 2023-07-07 오전 4 03 48" src="https://github.com/SeoGeonhyuk/TodayILearn/assets/60954160/93da00ca-15bc-40f0-853c-925c951df96f">
