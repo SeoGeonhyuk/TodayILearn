@@ -3,7 +3,7 @@
 https://github.com/SeoGeonhyuk/Backjoon.git<br>
 기본적으로 모든 문제 풀이 코드는 위 링크의 깃허브에 커밋하고 있습니다.<br>
 # 구현한 알고리즘 정리
-##이진탐색
+## 이진탐색
 ```
 def binarySearch(s, i, min, max):
   if min > max:
@@ -16,7 +16,7 @@ def binarySearch(s, i, min, max):
   elif s[mid] < i:
     return binarySearch(s, i, mid + 1, max)
 ```
-##에라스토테네스의 체
+## 에라스토테네스의 체
 ```
 n = 10000 #n이하까지 구할 소수
 a = [False,False] + [True]*(n-1)
@@ -27,7 +27,7 @@ for i in range(2,n+1):
     for j in range(2*i, n+1, i):
         a[j] = False
 ```
-##BFS
+## BFS
 ```
 BFS = []
 BFSList = [s[2]]
@@ -42,7 +42,7 @@ while len(BFSList) != 0:
             BFSListVisited[i] = True
             BFSList.append(i)
 ```
-##DFS
+## DFS
 ```
 def DFST(DFS, DFSList, DFSListVisited, vertex):
   start = DFSList.pop(0)
