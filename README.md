@@ -1,7 +1,6 @@
 # TodayILearn
 2023-1학기 여름방학 모각소를 위한 TIL 레포지토리<br>
-https://github.com/SeoGeonhyuk/Backjoon.git<br>
-기본적으로 모든 문제 풀이 코드는 위 링크의 깃허브에 커밋하고 있습니다.<br>
+기본적으로 모든 문제 풀이 코드들은 따로 [전용 깃허브](https://github.com/SeoGeonhyuk/Backjoon.git)에 커밋하고 있습니다.<br>
 # 구현한 알고리즘 정리
 ## 이진탐색
 ```
@@ -75,8 +74,7 @@ def gcd(a, b):
 2. gcd(a, 0) = a<br>
 3. gcd(a, b) = gcd(a (mod b), b)<br>
 # 2023.07.07
-https://www.acmicpc.net/problem/1260<br>
-백준 1260번 DFS와 BFS를 풀면서 느낀점<br>
+[백준 1260번 DFS와 BFS](https://www.acmicpc.net/problem/1260)를 풀면서 느낀점<br>
 1.최적화하는 방법은 무궁무진하게 많다.<br>
 2.예전에만 쓰고 지금은 잘 안쓰는 join에 대해서 다시 떠오르게 되었다.<br>
 3.Chat GPT가 알려주는 내용을 너무 맹신하지 말자. 내가 더 정확한 경우도 있다.<br>
