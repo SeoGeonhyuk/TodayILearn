@@ -2,6 +2,58 @@
 2023-1학기 여름방학 모각소를 위한 TIL 레포지토리<br>
 https://github.com/SeoGeonhyuk/Backjoon.git<br>
 기본적으로 모든 문제 풀이 코드는 위 링크의 깃허브에 커밋하고 있습니다.<br>
+# 구현한 알고리즘 정리
+##이진탐색
+```
+def binarySearch(s, i, min, max):
+  if min > max:
+    return 0
+  mid = (min + max) // 2
+  if s[mid] == i:
+    return 1
+  elif s[mid] > i:
+    return binarySearch(s, i, min, mid - 1)
+  elif s[mid] < i:
+    return binarySearch(s, i, mid + 1, max)
+```
+##에라스토테네스의 체
+```
+n = 10000 #n이하까지 구할 소수
+a = [False,False] + [True]*(n-1)
+decimal = []
+for i in range(2,n+1):
+  if a[i]:
+    decimal.append(i)
+    for j in range(2*i, n+1, i):
+        a[j] = False
+```
+##BFS
+```
+BFS = []
+BFSList = [s[2]]
+BFSListVisited = [False] * (s[0] + 1)
+BFSListVisited[s[2]] = True
+
+while len(BFSList) != 0:
+    start = BFSList.pop(0)
+    BFS.append(start)
+    for i in vertex[start]:
+        if not BFSListVisited[i]:
+            BFSListVisited[i] = True
+            BFSList.append(i)
+```
+##DFS
+```
+def DFST(DFS, DFSList, DFSListVisited, vertex):
+  start = DFSList.pop(0)
+  if not DFSListVisited[start]:
+    DFS.append(start)
+    DFSListVisited[start] = True
+  for i in vertex[start]:
+    if not DFSListVisited[i]:
+      DFSList.append(i)
+      DFST(DFS, DFSList, DFSListVisited, vertex)
+```
 # 2023.07.05
 백준 6064번 문제<br>
 https://www.acmicpc.net/problem/6064<br>
@@ -27,3 +79,4 @@ https://www.acmicpc.net/problem/1260<br>
 3.Chat GPT가 알려주는 내용을 너무 맹신하지 말자. 내가 더 정확한 경우도 있다.<br>
 문제를 풀면서 시간복잡도 상위 100안에 들었다.<br>
 <img width="946" alt="스크린샷 2023-07-07 오전 4 03 48" src="https://github.com/SeoGeonhyuk/TodayILearn/assets/60954160/93da00ca-15bc-40f0-853c-925c951df96f">
+
