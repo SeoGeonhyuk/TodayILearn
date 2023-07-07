@@ -37,14 +37,18 @@ BFSListVisited[s[2]] = True
 while len(BFSList) != 0:
     start = BFSList.pop(0)
     BFS.append(start)
-    for i in vertex[start]:
+    for i in vertex[start]: #vertex는 각 원소타입이 list인 list이다. 여기에는 간선의 정보가 있다.
         if not BFSListVisited[i]:
             BFSListVisited[i] = True
             BFSList.append(i)
 ```
 ## DFS
 ```
-def DFST(DFS, DFSList, DFSListVisited, vertex):
+DFS = []
+DFSList = [s[2]]
+DFSListVisited = [False] * (s[0] + 1)
+DFST(DFS, DFSList, DFSListVisited, vertex) #vertex는 각 원소타입이 list인 list이다. 여기에는 간선의 정보가 있다.
+def DFST(DFS, DFSList, DFSListVisited, vertex): 
   start = DFSList.pop(0)
   if not DFSListVisited[start]:
     DFS.append(start)
@@ -52,7 +56,7 @@ def DFST(DFS, DFSList, DFSListVisited, vertex):
   for i in vertex[start]:
     if not DFSListVisited[i]:
       DFSList.append(i)
-      DFST(DFS, DFSList, DFSListVisited, vertex)
+      DFST(DFS, DFSList, DFSListVisited, vertex) 
 ```
 # 2023.07.05
 [백준 6064번 문제](https://www.acmicpc.net/problem/6064)<br>
