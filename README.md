@@ -82,6 +82,6 @@ def gcd(a, b):
 <img width="946" alt="스크린샷 2023-07-07 오전 4 03 48" src="https://github.com/SeoGeonhyuk/TodayILearn/assets/60954160/93da00ca-15bc-40f0-853c-925c951df96f"><br>
 추가로 [백준 1764번 듣보잡](https://www.acmicpc.net/problem/1764) 문제도 풀었다.<br>
 # 2023.07.08
-오늘은 [백준 11047번 동전 0](https://www.acmicpc.net/problem/11047) 문제를 풀었다.<br>
+오늘은 [백준 11047번 동전 0](https://www.acmicpc.net/problem/11047), [백준 2606번 바이러스](https://www.acmicpc.net/problem/2606) 문제를 풀었다.<br>
 문제를 풀면서 느낀 점<br>
 1.구현에 집중하지 말고 시간복잡도를 최적화하는데 집중하라<br>
