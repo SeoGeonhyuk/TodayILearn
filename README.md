@@ -58,7 +58,7 @@ def DFST(DFS, DFSList, DFSListVisited, vertex):
       DFST(DFS, DFSList, DFSListVisited, vertex) 
 ```
 # 2023.07.05
-[백준 6064번 문제](https://www.acmicpc.net/problem/6064)<br>
+[백준 6064번 카잉 달력](https://www.acmicpc.net/problem/6064) 문제를 풀었다<br>
 중국인의 나머지 정리 공부<br>
 유클리드 호제법을 이용할 경우 최대공약수를 쉽게 구할 수 있다.<br>
 파이썬을 이용하여 코드를 작성할 경우 다음과 같다.<br>
@@ -82,6 +82,6 @@ def gcd(a, b):
 <img width="946" alt="스크린샷 2023-07-07 오전 4 03 48" src="https://github.com/SeoGeonhyuk/TodayILearn/assets/60954160/93da00ca-15bc-40f0-853c-925c951df96f"><br>
 추가로 [백준 1764번 듣보잡](https://www.acmicpc.net/problem/1764) 문제도 풀었다.<br>
 # 2023.07.08
-오늘은 [백준 11047번 동전 0](https://www.acmicpc.net/problem/11047) 문제를 푸었다.<br>
+오늘은 [백준 11047번 동전 0](https://www.acmicpc.net/problem/11047) 문제를 풀었다.<br>
 문제를 풀면서 느낀 점<br>
 1.구현에 집중하지 말고 시간복잡도를 최적화하는데 집중하라<br>
