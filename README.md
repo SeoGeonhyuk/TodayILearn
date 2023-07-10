@@ -85,3 +85,5 @@ def gcd(a, b):
 오늘은 [백준 11047번 동전 0](https://www.acmicpc.net/problem/11047), [백준 2606번 바이러스](https://www.acmicpc.net/problem/2606) 문제를 풀었다.<br>
 문제를 풀면서 느낀 점<br>
 1.구현에 집중하지 말고 시간복잡도를 최적화하는데 집중하라<br>
+# 2023.07.09 ~ 10
+pintos project1 구현작업을 진행했다.<br>
