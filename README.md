@@ -94,4 +94,4 @@ pintos project1 구현작업을 진행했다.<br>
 예시로 이러한 현상으로 인해 타이머 인터럽트가 무시되어 후에 타이머 관련 인터럽트를 처리할 때 문제가 발생할 수 있다.<br>
 추가적으로 semaphore, lock 뿐만 아니라 이를 활용한 monitor 동기화에 대해서도 배웠다.<br>
 # 2023.07.12
-[백준 11723번 집합](https://www.acmicpc.net/problem/11723), [백준 11399번 ATM](https://www.acmicpc.net/problem/11399) 문제를 풀었다.<br>
+[백준 11723번 집합](https://www.acmicpc.net/problem/11723), [백준 11399번 ATM](https://www.acmicpc.net/problem/11399), [백준 10989번 수 정렬하기 3](https://www.acmicpc.net/problem/10989) 문제를 풀었다.<br>
