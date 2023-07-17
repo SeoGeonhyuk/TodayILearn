@@ -111,3 +111,6 @@ DP에 대한 경험이 좀 더 필요하다고 생각했다. DP 관련 문제를
 오늘은 [백준 2609번 최대공약수와 최소공배수](https://www.acmicpc.net/problem/2609), [백준 1436번 영화감독 숌](https://www.acmicpc.net/problem/1436), [백준 9012번 괄호](https://www.acmicpc.net/problem/9012) 문제를 풀었다.<br>
 # 2023.07.16
 오늘은 [백준 10814번 나이순 정렬](https://www.acmicpc.net/problem/10814), [백준 1966번 프린터 큐](https://www.acmicpc.net/problem/1966) 문제를 풀었다.<br>
+# 2023.07.17
+오늘은 [백준 10773번 제로](https://www.acmicpc.net/problem/10773) 문제를 풀었다.<br>
+또한, pintos project1과 project2를 일부 구현하였다.<br>
